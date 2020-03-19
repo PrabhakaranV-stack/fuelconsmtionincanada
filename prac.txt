@@ -6,7 +6,6 @@ import numpy as np
 %matplotlib inline
 #downloading data from IBM CLOUD
 #We use !wget to download the data
-!wget -O FuelConsumption.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv
 #Read the dataset
 df = pd.read_csv("FuelConsumption.csv")
 
